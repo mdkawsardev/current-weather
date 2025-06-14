@@ -1,2 +1,2 @@
-# current-weather
+# current-weather app
 Current weather using API
