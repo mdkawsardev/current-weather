@@ -12,7 +12,7 @@ let humidity = document.querySelector(".title2 p");
 let Visibility = document.querySelector(".title3 p");
 let Pressure = document.querySelector(".title4 p");
 
-// Creating a function to get weather informations
+// Creating a function to get weather information
 async function weather(city) {
         const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4a503c7c892dba9dbb26aac2de9bfac5&units=metric`
         const options = {
@@ -30,7 +30,7 @@ async function weather(city) {
             document.querySelector(".parent").style.display = "block";
             let result = await response.json();
             console.log(result)
-            cLocation.innerHTML = result.name;
+            cLocation.innerHTML = result.name + " " + result.sys.country;
             let time = new Date(result.dt * 1000);
             let date = time.toLocaleTimeString();
             locationTime.innerHTML = date;
