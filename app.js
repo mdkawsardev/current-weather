@@ -63,3 +63,8 @@ async function weather(city) {
 searchBtn.addEventListener("click", () => {
         weather(searchInput.value)
 })
+window.addEventListener("load", (evt) => {
+    evt.preventDefault()
+    // Here Dhaka is a default value
+    weather(searchInput.value = "Dhaka")
+})
