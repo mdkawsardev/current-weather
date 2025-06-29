@@ -95,7 +95,7 @@ body {
     min-width: 25vw;
     /* min-height: 50vh; */
     padding: 1.5rem;
-    background: linear-gradient(45deg, #f9e79f, #f39c12);
+    background: linear-gradient(45deg, #f39c12, #f9e79f);
     border-radius: 1rem;
 }
 
