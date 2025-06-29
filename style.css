@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(#5d6d7e, #34495e);
+    background: radial-gradient(#f39c12, #34495e);
 }
 
 ::placeholder {
@@ -95,7 +95,7 @@ body {
     min-width: 25vw;
     /* min-height: 50vh; */
     padding: 1.5rem;
-    background: linear-gradient(45deg, #34495e, #5d6d7e);
+    background: linear-gradient(45deg, #f39c12, #5d6d7e);
     border-radius: 1rem;
 }
 
